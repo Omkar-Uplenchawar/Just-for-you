@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(black.jpg);
+    padding: 20px 300px;
+    
+    
+}
+.contact{
+    padding: 20px 50px;
+    background-color:rgba(94, 97, 97, 0.904);
+    border: 1.5px solid rgb(44, 41, 41);
+    border-radius:  7px;
+
+}
+
+#contactus {
+   text-underline-position: below;
+   border-bottom: 2px solid black;
+   padding: 10px;
+
+}
+
+#button{
+    width:100%;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color:rgb(44, 52, 209);
+    color: rgb(247, 239, 239);
+    cursor:pointer ;
+}
+
+input[type="text"],
+input[type="Email"],
+input[type="Number"],
+input[type="text"],
+button,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(195, 195, 48);
+    border-radius:7px;
+}
+
+p{
+    padding: 1px;
+    font-size: 20px;
+}
+
+fieldset{
+    background-color: rgb(247, 239, 239);
+    border-radius:  7px;
+}
+
+a{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 30px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: right;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
